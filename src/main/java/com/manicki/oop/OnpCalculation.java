@@ -15,8 +15,8 @@ public class OnpCalculation {
                 return value1 * value2;
             case '/':
                 return value1 / value2;
-                default:
-                    return 0;
+            default:
+                throw new WrongInputDataException();
         }
     }
 }

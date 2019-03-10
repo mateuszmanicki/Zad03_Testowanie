@@ -44,4 +44,12 @@ public class OnpCalculationTest {
 
         assertEquals(2, result);
     }
+
+    @Test (expected = WrongInputDataException.class)
+    public void shouldThrowException(){
+        String operation = "02A";
+        OnpCalculation oopCalculation = new OnpCalculation();
+
+        oopCalculation.calculate(operation);
+    }
 }
