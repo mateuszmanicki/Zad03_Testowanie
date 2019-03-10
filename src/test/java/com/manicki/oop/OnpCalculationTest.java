@@ -4,11 +4,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class OopCalculationTest {
+public class OnpCalculationTest {
     @Test
     public void shouldReturnFourByMultiplyTwoByTwo(){
         String operation = "22*";
-        OopCalculation oopCalculation = new OopCalculation();
+        OnpCalculation oopCalculation = new OnpCalculation();
 
         int result = oopCalculation.calculate(operation);
 
@@ -18,7 +18,7 @@ public class OopCalculationTest {
     @Test
     public void shouldReturnFiveByAddTwoByThree(){
         String operation = "23+";
-        OopCalculation oopCalculation = new OopCalculation();
+        OnpCalculation oopCalculation = new OnpCalculation();
 
         int result = oopCalculation.calculate(operation);
 
@@ -28,7 +28,7 @@ public class OopCalculationTest {
     @Test
     public void shouldReturnFiveBySubEightByThree(){
         String operation = "83-";
-        OopCalculation oopCalculation = new OopCalculation();
+        OnpCalculation oopCalculation = new OnpCalculation();
 
         int result = oopCalculation.calculate(operation);
 
@@ -38,7 +38,7 @@ public class OopCalculationTest {
     @Test
     public void shouldReturnTwoByDivEightByFour(){
         String operation = "84/";
-        OopCalculation oopCalculation = new OopCalculation();
+        OnpCalculation oopCalculation = new OnpCalculation();
 
         int result = oopCalculation.calculate(operation);
 

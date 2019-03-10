@@ -1,6 +1,6 @@
 package com.manicki.oop;
 
-public class OopCalculation {
+public class OnpCalculation {
     public int calculate(String operation) {
         int value1 = Integer.parseInt(String.valueOf(operation.charAt(0)));
         int value2 = Integer.parseInt(String.valueOf(operation.charAt(1)));
@@ -15,7 +15,8 @@ public class OopCalculation {
                 return value1 * value2;
             case '/':
                 return value1 / value2;
-            default: return 0;
+                default:
+                    return 0;
         }
     }
 }
