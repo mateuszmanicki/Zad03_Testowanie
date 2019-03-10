@@ -52,4 +52,5 @@ public class OnpCalculationTest {
 
         oopCalculation.calculate(operation);
     }
+
 }
