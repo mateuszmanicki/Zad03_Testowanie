@@ -1,6 +1,7 @@
 package com.manicki.oop;
 
 public class OnpCalculation {
+
     public int calculate(String operation) {
         int value1 = Integer.parseInt(String.valueOf(operation.charAt(0)));
         int value2 = Integer.parseInt(String.valueOf(operation.charAt(1)));
